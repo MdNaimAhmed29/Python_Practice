@@ -6,3 +6,5 @@ if marks >= 45:
 
 else:
     print("Fail")
+
+
