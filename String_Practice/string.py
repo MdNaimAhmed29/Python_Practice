@@ -1,5 +1,12 @@
 #String - Strings in Python are sequences of characters enclosed within single(''), double(""), or triple quotes (""" or ''')
 #immutable data type, means they cannot be change once created
+"""
+Single Quotes('')
+- typically used for short strings=> n = 'Hello World'
+- string itself contains double qoutes=> n = 'Hello "World"'
+"""
+
+
 name = "Naim Ahmed"
 city = "Dhaka"
 
