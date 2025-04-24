@@ -1,5 +1,5 @@
 #String - Strings in Python are sequences of characters enclosed within single(''), double(""), or triple quotes (""" or ''')
-#immutable data type
+#immutable data type, means they cannot be change once created
 name = "Naim Ahmed"
 city = "Dhaka"
 
