@@ -1,4 +1,4 @@
-
+#String - Strings in Python are sequences of characters enclosed within single(''), double(""), or triple quotes (""" or ''')
 name = "Naim Ahmed"
 city = "Dhaka"
 
