@@ -21,4 +21,3 @@ print("Germany" in country)
 country.pop()
 print(country)
 
- 
