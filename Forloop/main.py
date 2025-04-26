@@ -37,10 +37,32 @@ for i in range(1, n+1):
     print("")
 
 #for loop use two
-def multplication_table(n):
+def multplication_table(nn):
     for i in range(1, 11):
-        print("{} x {} = {}".format(n, i, i * n))
+        print("{} x {} = {}".format(nn, i, i * nn))
 
-n = input("Enter n: ")
-n = int(n)
-multplication_table(n)
+nn = input("Enter nn: ")
+nn = int(nn)
+multplication_table(nn)
+
+examresults = {'phy':90, 'math':89, 'bangla':70}#dictonary
+for subject,marks in examresults.items():
+    print(subject, "=", marks)
+
+unique_numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9} #set
+for eachnumber in unique_numbers:
+    print(eachnumber)
+
+print("")
+
+for num in range(11):
+    if num == 5:
+        break
+    print(num)
+
+print("")
+
+for num1 in range(11):
+    if num1 == 5:
+        continue
+    print(num1)
