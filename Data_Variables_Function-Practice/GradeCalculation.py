@@ -1,19 +1,19 @@
 marks = input("Enter marks: ")
 marks = float(marks)
 
-if marks >= 80:
+if 100 >= marks >= 80:
     print("GPA: A+")
 
-elif marks >= 0:
+elif 80 > marks >= 70:
     print("GPA: A-")
 
-elif marks >= 60:
+elif 70 > marks >= 60:
     print("GPA: B")
 
-elif marks >= 50:
+elif 60 > marks >= 50:
     print("GPA: C")
 
-elif marks >= 40:
+elif 50 > marks >= 33:
     print("GPA: D")
 
 else:
