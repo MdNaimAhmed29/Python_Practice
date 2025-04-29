@@ -1,3 +1,12 @@
+"""
+required parameters ->(a,b) always need arguments
+default parameters ->(a=100,b) no need arguments for a
+variable length arguments ->(*numbers)/tuples-> multiple arguments
+keyword arguments -> (**person)/Dictionary -> multiple key and values
+"""
+
+
+
 def generate_multiplication_table(numb):
     print(numb, "x 1 =", numb * 1)
     print(numb, "x 2 =", numb * 2)
@@ -57,5 +66,23 @@ def my_function(a, b, c): #paramitar
 d = 8 #global variable
 x = my_function(1, 2, 3) #arguments
 print(x)
+
+print("")
+
+def numbers_new(*numbers):
+    for n in numbers:
+        print(n)
+
+numbers_new(100,500,200,50)
+
+def dictonary_new(**dictonary):
+    for key,value in dictonary.items():
+        print(f"{key}: {value}")
+
+dictonary_new(
+    name = "Naim",
+    age = 20,
+    city = "Chicago"
+)
 
 
