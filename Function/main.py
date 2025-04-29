@@ -75,6 +75,9 @@ def numbers_new(*numbers):
 
 numbers_new(100,500,200,50)
 
+print("")
+
+
 def dictonary_new(**dictonary):
     for key,value in dictonary.items():
         print(f"{key}: {value}")
